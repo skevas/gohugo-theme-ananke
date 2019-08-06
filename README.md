@@ -134,6 +134,12 @@ For example, if your css files are `static/css/custom.css` and `static/css/custo
       custom_css = ["css/custom.css","css/custom2.css"]
 ```
 
+### MathJax-Support
+
+If you add the key `math: true` to a post, MathJax support will be loaded. 
+
+Check `layouts/_default/baseof.html` for the default version and source. You can reconfigure the source in your config file by setting in `[params]` the key `MathJax`
+
 ### Show Reading Time and Word Contributing
 
 If you add a key of `show_reading_time` true to either the Config Params, a page or section's front matter, articles will show the reading time and word count.
