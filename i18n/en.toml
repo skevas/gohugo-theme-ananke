@@ -15,3 +15,9 @@ other = "What's in this {{ .Type }}"
 
 [related]
 other = "Related"
+
+[readingTime]
+other = "minutes read"
+
+[words]
+other = "words"
