@@ -21,3 +21,18 @@ other = "Minuten Lesezeit"
 
 [words]
 other = "Wörter"
+
+[yourName]
+other = "Dein Name"
+
+[emailAddress]
+other = "Email Adresse"
+
+[message]
+other = "Nachricht"
+
+[emailRequiredNote]
+other = "Eine Email Adresse wird benötigt."
+
+[send]
+other = "Senden"
