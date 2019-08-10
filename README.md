@@ -159,10 +159,14 @@ Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your 
 
 Add `toc: true` to the metadata section to display a table of contents
 
-## Related Articles / Posts
+### Related Articles / Posts
 
 Hugo uses a set of factors to identify a page’s related content based on
 Front Matter parameters. This can be enabled by addint `related: true`to the metadata section. Further information on Hugos Related Content features can be found in the [Hugo documenation](https://gohugo.io/content-management/related/).
+
+### Tag Style
+
+Tags will be printed at the end of the article. You can choose between two styles. The default style prints all tags into one line (or multiple if too many tags were given). Add `listStyleTags: true` to the metadata section to get one tag per line.
 
 ## Production
 
