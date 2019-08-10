@@ -153,6 +153,17 @@ In order to see your site in action, run Hugo's built-in local server.
 
 Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser.
 
+## Articles / Posts
+
+### Table of Contents
+
+Add `toc: true` to the metadata section to display a table of contents
+
+## Related Articles / Posts
+
+Hugo uses a set of factors to identify a page’s related content based on
+Front Matter parameters. This can be enabled by addint `related: true`to the metadata section. Further information on Hugos Related Content features can be found in the [Hugo documenation](https://gohugo.io/content-management/related/).
+
 ## Production
 
 To run in production (e.g. to have Google Analytics show up), run `HUGO_ENV=production` before your build command. For example:
